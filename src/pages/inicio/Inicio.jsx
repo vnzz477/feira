@@ -1,5 +1,5 @@
 import React from "react";
-import './inicio.scss'
+import './Inicio.scss'
 import { Link } from "react-router-dom";
 
 export default function Inicio() {
