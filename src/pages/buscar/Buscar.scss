@@ -1,0 +1,107 @@
+.buscar-container {
+  display: flex;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.buscaVis {
+  flex: 1;
+  padding: 40px;
+  background-color: white;
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  margin-top: -5px;
+  color: #333;
+  font-size: 16px;
+}
+
+.acharVis {
+  margin: 20px 0;
+  position: relative;
+}
+
+.acharVis input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: #f1f1f1;
+}
+
+/* Formulário ajustado */
+.formulario {
+  margin-top: 15px;
+}
+
+.form-group {
+  margin: 12px 0; /* menos espaço entre os campos */
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.linha {
+  border-bottom: 2px solid black;
+  padding: 6px 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.botao-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.btn-vincular {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 12px;
+  background-color: #F7B94E; /* amarelo */
+  color: #2D4C98; /* azul */
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.btn-vincular:hover {
+  background-color: #e6a93f;
+}
+
+/* Área da direita */
+.areaADM {
+  flex: 1;
+  background-color: #2D4C98;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto {
+  max-width: 450px; /* aumentei a imagem */
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.bemvindo {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #F7B94E; /* amarelo */
+}

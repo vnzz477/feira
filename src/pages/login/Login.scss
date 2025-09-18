@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    color: #333;
+  }
+  
+  body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .lado-esquerdo {
+    flex: 1;
+    background: #2D4C98; 
+    color: #f9a602;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    padding: 0 20px;
+    gap: 16px;
+  }
+  
+ 
+  .foto-escola {
+  width: 450px;    
+  height: 490px;    
+  object-fit: cover;  
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  .hashtag {
+    font-weight: bold;
+    color: #f9a602;
+    font-size: 20px;
+  }
+  
+  .lado-direito {
+    flex: 1;
+    background: #fff;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .cabecalho-formulario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+  
+  .cabecalho-formulario h1 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+  
+  .cabecalho-formulario p {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 4px;
+    color: #000;
+  }
+  
+  .logo {
+
+    width: 90px;
+    height: auto;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: none;
+    background: #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border: 2px solid #2D4C98;
+    background: #fff;
+  }
+  
+ .btn-login {
+  text-align: center;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #2D4C98;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 12px rgba(45, 76, 152, 0.3);
+  text-decoration: none;
+}
+
+.btn-login:hover {
+  background: #1a3366; 
+}
+
+  
+  button:hover {
+    background: #1e356a;
+  }
+  
+  
+  @media (max-width: 900px) {
+    .container {
+      flex-direction: column;
+      height: 100vh;
+    }
+  
+    .lado-esquerdo,
+    .lado-direito {
+      width: 100%;
+      flex: none;
+      padding: 20px 30px;
+    }
+  
+    .cabecalho-formulario {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .foto-escola {
+      max-width: 100%;
+    }
+  }

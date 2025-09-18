@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #111;
+  overflow-x: hidden;
+}
+
+.inicio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  flex-wrap: wrap;
+}
+
+.logo-frei {
+  width: 80px;
+  height: auto;
+}
+
+.logo-centralizada {
+  margin-right: 100px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-feira {
+  width: 80px;
+  height: auto;
+}
+
+.logo-central{
+  display: flex;
+  justify-content: center;
+  width: 80px;
+}
+
+.logo-frei{
+  width: 80px
+}
+
+.center {
+  text-align: center;
+}
+
+.titulo h2 {
+  margin-top: 10px;
+}
+
+.frase {
+  font-style: italic;
+  color: #444;
+  font-family: "Island Moments", cursive;
+  font-size: 28px;
+  font-style: normal;
+  
+}
+
+.frase2 {
+  margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
+font-size: 20px;
+
+}
+
+.titulo img {
+  margin: 10px;
+  background: #ffffff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-weight: bold;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 25px 0
+}
+
+.terceira {
+  justify-content: left;
+  display: flex;
+  margin-top: 20px;
+  padding: 20px;
+
+}
+
+.menu a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  color: #2D4C98;
+}
+
+.menu .botao {
+  background: #2D4C98;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+.menu .botao:hover {
+  background-color: #1a3070;
+}
+
+
+.edicao {
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+.edicao-num {
+  color: #F7B94E;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.cards img {
+  width: 350px;
+  border-radius: 8px;
+
+}
+
+.descricao {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 700px;
+  padding: 0 20px;
+}
+.text{
+font-size: 17px;
+}
+
+.hashtag {
+font-size: 20px;
+  color: #F7B94E;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cronograma {
+  background: #2D4C98;
+  color: white;
+  border: #fff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 55px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.profissao {
+  background-color: #2D4C98;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.profissao .info {
+  flex: 1;
+}
+
+.prof{
+  margin-top: 50px;
+}
+
+.profissao h2 {
+
+    margin-top: -60px;
+    margin-left: 250px;
+    text-align: center;
+  color: #F7B94E;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+}
+
+.profissao p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin: 5px 0;
+}
+
+.profissao .imagem img {
+  width: 250px;  
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.evento {
+  background-color: #F7B94E;
+  padding: 20px;
+  margin-top: 48px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.evento h2 {
+  margin: 0px;
+  color: #2D4C98;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.evento p {
+  color: #000000;
+  display: flex;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.sob{
+  margin: -24px;
+  margin-top: 10px;
+  text-align: center;
+}
+.sobre {
+  margin-top: 48px;
+  background-color: #2D4C98;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sobre p {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sobre img {
+  border-radius: 10px;
+  width: 500px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+
+.contato {
+  margin-top: 48px;
+  background-color: #F7B94E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 40px;
+  border-top: 1px solid transparent;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+}
+
+.contato-left,
+.contato-center,
+.contato-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contato-left {
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 130px;
+}
+
+.logo-contato {
+  width: 90px;
+  border-radius: 4px;
+  
+}
+
+.social-icons {
+  display: flex;
+  gap: 2px;
+}
+
+.social-icons a {
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #2D4C98;
+}
+
+.contato-center {
+  text-align: center;
+  flex: 1;
+  padding: 0 20px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.contato-center h2 {
+  margin: 0 0 15px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.contato-center a {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #000;
+  display: block;
+  margin: 4px 0;
+}
+
+.contato-center a:hover {
+  color: #2D4C98;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #4d4d4d;
+}
+
+.contato-right {
+  text-align: right;
+  min-width: 180px;
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.contato-right p {
+  margin: 6px 0;
+}
+
+.contato-right a {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #000;
+}
+
+.contato-right a:hover {
+  color: #2D4C98;
+}
+@media (max-width: 768px) {
+  .inicio {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-feira-wrapper {
+    position: static;
+    transform: none;
+  }
+
+  .center img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profissao {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profissao .imagem img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .sobre {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sobre img {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .contato {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .contato-center {
+    border-left: none;
+    border-right: none;
+  }
+}
