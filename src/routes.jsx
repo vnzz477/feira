@@ -6,8 +6,6 @@ import BuscarVisitante from "./pages/buscar/Buscar";
 
 
 
-
-
 export default function Navegacao() {
     return (
         <BrowserRouter>
